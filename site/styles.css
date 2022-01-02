@@ -147,6 +147,7 @@ p {
     margin-right: auto;
     border: black solid 2px;
     padding-left: 15px;
+    overflow: auto;
 }
 
 .littlebox {
