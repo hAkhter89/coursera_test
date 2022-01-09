@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Chu's China Bistro</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-lg visible-md visible-sm">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+          <div class="navbar-brand">
+            <h1>David Chu's China Bistro</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher Certification">
+              <span>Kosher Certified</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home
+              </a>
+            </li>
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span>
+                <br class="hidden-xs">Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span>
+                <br class="hidden-xs">About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span>
+                <br class="hidden-xs">Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:abc-def-ghij">
+                <span>3102590891</span></a>
+              <div>We Deliver!</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:abc-efg-hijk">
+      <span class="glyphicon glyphicon-earphone"></span>
+      03102590891
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">We Deliver!</div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Pic of Restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html">
+          <div id="menu-tile"><span>Menu</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html">
+          <div class="hi" id="specials-tile"><span>Specials</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/M4kPZpR2qw5L8yRh7" target="_blank">
+          <div id="map-tile"><span>Map</span>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12338.70098200007!2d-76.7116881!3d39.3635903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sen!2s!4v1641336457372!5m2!1sen!2s"
+              width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </a>
+      </div>
+    </div> <!-- End of tiles -->
+  </div>
+  <!--End of main content -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15 AM - 10:00 PM<br>
+          Fri: 11:15 AM - 2:30 PM<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="Address" class="col-sm-4">
+          <span>Address:</span><br>
+          PECHS Block 6<br>
+          Karachi<br>
+          <p>*Delivery area within 3-4miles, with minimum order of $20 plus $3 for deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese Restaurant I've been to! And that's saying a lot, since I've been to so many"</p>
+          <p>"Amazing food! Great Service! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Hassan Akhter</div>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

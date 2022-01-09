@@ -1,0 +1,109 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: grey;
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+#brand-name {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+    
+}
+.panel-footer {
+    padding-top: 50px;
+    background-color: #222;
+}
+#our-menu {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+.dish {
+    height: 100vh;
+    background-color: grey;
+    margin-left: 0;
+    padding: 0;
+    overflow: auto;
+}
+#main-content {
+    margin-top: 30px;
+    max-width: 95%;
+}
+
+.dish-item {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'arial';
+    padding: 0;
+}
+
+#details {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: 'lora';
+}
+#collapsable-nav {
+    padding: 0;
+}
+
+
+#nav-list {
+    text-align: center;
+    visibility: hidden;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+#nav-list a {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#nav-list .nav-item1 {
+    border-top: black solid 2px;
+}
+.panel-footer {
+    margin-top: 50px;
+    background-color: #222;
+    opacity: 1;
+}
+
+#trademark {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    
+}
+
+
+@media (min-width: 992px) {
+    #main-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    #nav-list {
+        visibility: visible;
+    }
+
+}
