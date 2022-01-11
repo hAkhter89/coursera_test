@@ -31,9 +31,10 @@ body {
 .dish {
     height: 100vh;
     background-color: grey;
-    margin-left: 0;
-    padding: 0;
     overflow: auto;
+    margin-top: 20px;
+    padding: auto 10px;
+
 }
 #main-content {
     margin-top: 30px;
@@ -45,12 +46,12 @@ body {
     color: black;
     font-weight: bold;
     text-align: center;
-    font-family: 'arial';
+    font-family: cursive;
     padding: 0;
 }
 
 #details {
-    padding: 10px 20px;
+    padding: 15px 10px;
     font-weight: bold;
     font-family: 'lora';
 }
@@ -97,11 +98,18 @@ body {
         margin-left: auto;
         margin-right: auto;
         margin-top: 50px;
-        max-width: 95%;
+        max-width: 100%;
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 576px) {
+    .navbar-toggler {
+        visibility: hidden;
+
+    }
+}
+
+@media (max-width: 575px) {
     #nav-list {
         visibility: visible;
     }
