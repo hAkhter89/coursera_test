@@ -166,3 +166,8 @@ p {
     border: black solid 2px;
     overflow: hidden;
 }
+
+#scaled {
+  margin: 0;
+  width: auto;
+}
